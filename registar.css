@@ -1,0 +1,55 @@
+/* registar.css */
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover
+}
+
+    .container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100vh;
+  }
+
+button[type="submit"]{
+    font-size: 50%;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 30%;
+    margin-top: 20px;
+    margin-left: 205px;
+    padding: 10px;
+	font-weight: bold;
+	color:#3dca7a;
+    border: none;
+	border-bottom: 2px solid #8aeeb5;
+	border-radius: 100vh;
+	background: #fff;
+	box-shadow: 0 2px 7px rgba(239, 0, 0, 0.893);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+button[type="submit"]:hover {
+	color: #fff;
+	background: #59ca8a;
+	border-bottom: 2px solid #fff;
+	transform: translateY(3px);
+}
+a.back{
+   color: #3dca7a;
+}

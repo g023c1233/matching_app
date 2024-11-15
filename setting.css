@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover
+}
+header{
+	color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+}
+
+
+.manu{
+	width: 100%;
+	background-color: #ffffff;
+}

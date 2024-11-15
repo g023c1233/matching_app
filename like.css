@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover
+  }
+
+
+  h1{
+    color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+    margin-top: 40px;
+  }
+
+  .aaa{
+    display: flex;
+    justify-content: center;
+    gap: 25%
+  }
+
+  .like-link{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;/*下線なし*/
+    width: 110px;
+    height: 30px;
+    padding: 1rem 4rem;
+    font-weight: bold;/*太字*/
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 100vh;
+    background: rgb(153, 228, 255);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+    transform: translateY(3px);
+
+  }
+
+.liked-link{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;/*下線なし*/
+    width: 110px;
+    height: 30px;
+    padding: 1rem 4rem;
+    font-weight: bold;/*太字*/
+    color:rgb(119, 215, 250);
+    border-bottom: 2px solid rgb(119, 215, 250);
+    border-radius: 100vh;
+    background: #fff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+  }
+
+
+
+.liked-link:hover {
+    color: #fff;
+    background: rgb(153, 228, 255);
+    border-bottom: 2px solid #fff;
+    transform: translateY(3px);
+}
+

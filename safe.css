@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+    margin: 100px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1,h2,h3{
+    color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+    margin-top: 40px;
+
+}
+
+p{  
+    padding: 25px;
+    border-radius: 9px;
+    color: #585858;
+    background: #ffffff;
+    border-bottom: solid 6px #7eb5a4;
+}

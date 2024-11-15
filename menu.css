@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover
+  }
+
+
+
+
+  .boy-link , .girl-link{
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    color:rgb(119, 215, 250);/*:#3dca7a;*/
+    border-bottom: 2px solid rgb(119, 215, 250);
+    border-radius: 100vh;
+    background: #fff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+
+  }

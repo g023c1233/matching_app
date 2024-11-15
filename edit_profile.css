@@ -1,0 +1,89 @@
+/* edit_profile.css */
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+main{
+    margin-left: 45px;
+
+}
+
+h1{
+    text-align: center;
+    color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+    margin-top: 40px;
+
+}
+
+div{
+    width: 50%;
+}
+
+
+label {
+    font-weight: bold; 
+    color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+    font-size: 23px;
+
+}
+
+textarea{
+    width: 95%;
+    height: 70px;
+}
+
+
+select,input[type="text"]{
+    width: 90%;
+    height: 55px;
+}
+
+select,input[type="text"],textarea{
+    font-size: 17px;
+    border-radius: 5px;
+    color: #848383;
+    border: 0;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;
+    color: rgb(118, 116, 116);
+    margin-left: 45px;
+    margin-bottom: 20px;
+
+}
+
+.button {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    font-size: 20px;
+    display: block;
+	text-decoration: none;
+    padding: 10px;
+	font-weight: bold;
+	color:#3dca7a;
+    border: none;
+	border-bottom: 2px solid #8aeeb5;
+	border-radius: 100vh;
+	background: #fff;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.893);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    float: right;
+  }
+  .button:hover {
+    color: #fff;
+	background: #59ca8a;
+	border-bottom: 2px solid #fff;
+	transform: translateY(3px);
+}

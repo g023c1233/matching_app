@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    width: 600px;
+    position: fixed;
+    top: 0;
+    /* background-color: white; */
+}
+
+
+
+.chat-history {
+    margin-top: 100px;
+    margin-bottom: 100px; /* フォームの高さ分の余白を追加 */
+    max-height: calc(100vh - 160px); /* 上部のスペースを除いた高さでスクロール可能に */
+    overflow-y: auto;
+}
+
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message .content {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message.sent {
+    justify-content: flex-end;
+
+}
+
+.message.sent .content {
+    background-color: #d1e7dd;
+    align-self: flex-end;
+    border-top-right-radius: 0;
+}
+
+.message.received {
+    justify-content: flex-start;
+}
+
+.message.received .content {
+    background-color: #f8d7da;
+    align-self: flex-start;
+    border-top-left-radius: 0;
+}
+
+.message-form {
+    position: fixed;
+    bottom: 0;
+    width: 600px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.message-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-form button:hover {
+    background-color: #0056b3;
+}

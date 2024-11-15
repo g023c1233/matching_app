@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover
+}
+
+main{
+    margin-bottom: 50px;
+}
+
+h1,h2{
+color: #4d4d4d;
+text-shadow: 4px 5px 6px #ffffff;
+margin-top: 40px;
+
+}
+
+header{
+
+    margin-left: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+img.profile-photo {/* プロフ画面*/
+    display: block;
+    margin: 0 auto;
+    width: 480px; 
+    height: auto; 
+    border-radius: 15px;
+}
+
+
+.profile-info {/*名前。年齢、性別*/
+    font-size: 20px;
+    text-align: center;
+    letter-spacing:0.15em;
+    font-weight: bold;
+    border-bottom: 3px dotted #7eb5a4;
+    margin: 10px 35% 0 35%;
+    color: #4d4d4d;
+text-shadow: 3px 4px 5px #ffffff;
+}
+
+
+.bio{/*自己紹介*/
+    text-align: center;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position:relative;
+    border-radius: 9px;
+    color: #585858;
+    background: #ffffff;
+    border-bottom: solid 6px #7eb5a4;
+}
+.bio::before {
+    color: #4d4d4d;
+    content: "～自己紹介～";
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    padding: 0 20px;
+    left: 50%; /* 親要素の幅の50% */
+    transform: translateX(-50%); /* コンテンツの幅の50%分戻す */
+    top: -10px;
+}
+
+
+.container {
+    text-align: center; /* 子要素を中央揃えに */
+}
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10{
+    display: inline-block;
+    width: 170px;
+    height: 60px;
+    margin:25px 30px 0px 30px;  
+    font-weight: bold;
+    color: #585858;
+    background: #ffffff;
+    border-bottom: solid 6px #7eb5a4;
+    border-radius: 9px;
+  }
+
+
